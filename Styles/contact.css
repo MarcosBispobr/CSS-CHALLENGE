@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+/* logo */
+.logo{
+    width: 150px;
+    margin-top: 2%;
+ }
+ /* texto do cabeçalho */
+ .app-header ul a{
+  font-family: 'Poppins';
+   font-size: 20px;
+   color: #fff;
+  text-decoration: none;
+   padding: 10px;
+   align-items: center;
+   font-weight: 700;
+ }
+ .actions-group{
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    padding-top:2%;
+ }
+ /* borda texto do cabeçalho */
+ .contact-top{
+   border-bottom: solid rgba(230, 53, 53, 0.993) ;
+   color: #fff;
+   width: 45%;
+   padding: 5%;
+ }
+ /* imagem de fundo */
+ .app-header{
+    background-image: url(../images/contatoheader.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: -1%;
+ }
+ /* titulo entre em contato */
+ .main-tittle{
+  font-family: 'Poppins';
+    text-align: center;
+    font-weight: 900;
+    color: rgb(68, 66, 66);
+    border-bottom: 4px solid rgba(230, 53, 53, 0.993) ;
+    margin-left: 40%;
+    display:inline-block;
+    
+ }
+ /* subtitulo entre em contato  */
+ .heading1{
+  font-family: 'Poppins';
+    text-align: center;
+    font-weight: 600;
+    color: rgb(68, 66, 66);
+ }
+ /* caixinhas formulário */
+
+.box-text{
+  font-family: 'poppins';
+    border-color:gray;
+    border-radius: 5px;
+    width: 400px;
+   grid-column-start: 1;
+   grid-column-end: 3;
+
+}
+.form-area{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.btn-submit{
+    font-family: 'poppins';
+    align-items: center;
+    color: #fff;
+    background-color: rgba(230,53,53, 0.993);
+    padding: 1% 30%;
+    border-color: rgba(230,53,53, 0.993) ;
+    margin-left: 43%;
+    border-radius: 5px;
+    width: 120%;
+
+}
+.under-pic{
+  width: 500px;
+  margin: 22% 0 0 25% ;
+}
+.card-input{
+  font-family: 'Poppins';
+  border-color: aliceblue;
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+}
+.input-content1{
+  margin-left: 50%;
+
+}

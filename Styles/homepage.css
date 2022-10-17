@@ -1,0 +1,112 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+/* logo */
+.logo{
+   width: 150px;
+   margin-top: 2%;
+}
+/* texto do cabeçalho */
+.app-header ul a{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+.actions-group{
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  padding-top:2% ;
+}
+/* borda texto do cabeçalho */
+.home-top{
+  border-bottom: solid rgba(230, 53, 53, 0.993);
+  width: 25%;
+  color: #fff;
+  padding: 5%;
+}
+/* imagem cabeçalho */
+.app-header{
+  background-image: url(../images/spidermanheader.jpg);
+  height: 950px;
+  background-position: center;
+  background-size: cover;
+  margin: -1%;
+}
+/* imagem quem somos */
+.introduction-card{
+  font-size: 20px;
+  background-image: url(../images/thor_header.jpg);
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 1% -2%;
+}
+/* subtitulo do catalogo  */
+.heading4{
+  background-image: url(../images/bonecos.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 600px;
+  text-align: right;
+  padding: 0px 220px;
+  font-size: 25px;
+  margin: 4% 0 15% ;
+  font-weight: 500;
+  font-family: 'poppins';
+}
+
+/* catálogo */
+.heading3{
+  display: inline-block;
+  font-family:'poppins';
+  color: #888;
+  text-align: center;
+ font-size: 40px;
+ border-bottom: 6px solid rgba(230, 53, 53, 0.993);
+ margin: 5% 0 0 45%;
+ font-weight: 600;
+}
+/* quem somos */
+.heading1{
+  font-family:'Poppins';
+  color:#fff;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5%;
+  margin-left: 45%;
+  font-weight: 600; 
+  border-bottom: 6px solid #fff;
+  display:inline-table;
+}
+ 
+/* subtitulo do quem somos */
+.heading2{
+  font-weight: 200;
+  text-align: right; 
+ padding-top: 5%;
+ color: #fff;
+ margin-right: 10%;
+ font-size: 25px;
+ font-family: 'poppins';
+}
+.btn-foward{
+ margin-right: 21%;
+ border-radius: 300px;
+ padding: 2% 8% 2% 8%;
+ background-color: rgba(230, 53, 53, 0.993);
+ font-weight:900;
+ color: #fff;
+ font-family: 'poppins';
+ border-color: rgba(230, 53, 53, 0.993); 
+    
+}
+
+.underpic{
+  width: 19%;
+  margin: 15% 10%;
+}

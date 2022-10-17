@@ -1,0 +1,71 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.logo{
+    width: 150px;
+    margin-top: 2%;
+}
+.app-header ul a{
+    font-family: 'poppins';
+    font-size: 20px;
+    color: #fff;
+   text-decoration: none;
+    font-weight: 700;
+}
+.actions-group{
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  padding-top:2% ;
+}
+.products-top{
+    border-bottom: solid rgba(230, 53, 53, 0.993);
+    color: #fff;
+    width: 42%;
+    padding: 5%;
+  }
+  .app-header{
+    background-image: url(../images/captainmarvelheader.jpg);
+    height: 950px;
+   background-position: center;
+   background-size: cover;
+   margin: -1%;
+  }
+  .main-tittle{
+    border-bottom: 3px solid rgba(230, 53, 53, 0.993);
+    display: inline;
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(63, 62, 62);
+    margin: 0% 0 0 43%;
+  }
+  .products-section,.product-thumb{
+    font-family: 'poppins';
+    height: 300px;
+    font-weight: 600;
+  }
+.btn-primary{
+  font-family: 'poppins';
+  border-radius: 100px;
+  padding: 1% 2%;
+  background-color: rgba(230, 53, 53, 0.993) ;
+  color: #fff;
+  font-weight: 800;
+  border-color: rgba(230, 53, 53, 0.993);
+}
+.under-background{
+  width: 25%;
+  padding: 27% 0 0 25%;
+}
+.products-section{
+  margin: 0 0 0% 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-self:auto;
+}
+.space{
+  margin-top: 40%;
+}
